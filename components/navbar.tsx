@@ -21,7 +21,7 @@ export function Navbar() {
     >
       <div className="max-w-[1280px] mx-auto px-10 flex items-center justify-between gap-10">
         <div className="font-display text-[1.7rem] tracking-[0.1em] text-c-text flex-shrink-0">
-          ELITE
+          LOGACAR
         </div>
 
         <ul className="hidden md:flex items-center gap-10 flex-1">

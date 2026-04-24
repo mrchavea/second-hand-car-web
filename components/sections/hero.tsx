@@ -29,7 +29,7 @@ const carImages = [
   },
 ]
 
-const rotatingWords = ["NUEVO", "FINANCIADO", "SOÑADO", "IDEAL"]
+const rotatingWords = ["NUEVO", "FINANCIADO", "KM0", "DE ALQUILER"]
 
 export function Hero() {
   return (
@@ -182,7 +182,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.65, duration: 0.5 }}
         >
-          Selección rigurosa de vehículos premium. Confianza total, transparencia absoluta.
+          Venta, nuevo, km0 y ocasión.
+          Renting de empresas, autónomos y particulares.
+          Alquiler por días a nivel nacional
         </motion.p>
 
         {/* CTAs */}

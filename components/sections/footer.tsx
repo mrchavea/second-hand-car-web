@@ -34,10 +34,10 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-[2fr_repeat(3,1fr)] gap-8 md:gap-16 mb-24">
           <div className="col-span-2 md:col-span-1">
             <div className="font-display text-[2rem] tracking-[0.1em] text-c-text mb-4">
-              ELITE
+              LOGACAR
             </div>
             <p className="text-[0.85rem] text-c-text-3 font-body leading-[1.65] max-w-[220px]">
-              Vehículos premium de ocasión. Confianza y transparencia desde 2009.
+              Vehículos de ocasión. Confianza y transparencia desde 2009.
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-c-border pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-[0.78rem] text-c-text-3 font-body">
-          <p>© 2025 Elite Cars. Todos los derechos reservados.</p>
+          <p>© 2025 Logacar. Todos los derechos reservados.</p>
           <p>+500 vehículos · 15 años · 4.9★ Google</p>
         </div>
       </div>
