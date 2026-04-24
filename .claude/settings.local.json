@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"slider hero card automotive\" --stack html-tailwind)",
+      "Bash(node .agents/skills/impeccable/scripts/cleanup-deprecated.mjs)"
+    ]
+  }
+}

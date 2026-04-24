@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-bg:       #ffffff;
+  --c-surface:  oklch(97% 0.002 200);
+  --c-border:   oklch(90% 0.003 200);
+  --c-border-s: oklch(94% 0.002 200);
+
+  --c-text:     oklch(10% 0.005 200);
+  --c-text-2:   oklch(42% 0.018 200);
+  --c-text-3:   oklch(62% 0.012 200);
+
+  /* Warm amber — reserved for brand labels and active states only */
+  --c-accent:   oklch(68% 0.13 78);
+  --c-accent-h: oklch(62% 0.14 78);
+
+  --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-hanken), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 2px;
+}
